@@ -1,0 +1,54 @@
+.postContainer {
+  padding: 5rem;
+  background-color: #e7d3b0;
+  min-height: 100vh;
+}
+
+.postBody {
+  border: 1px solid #7f8d8b;
+  border-radius: 20px;
+  padding: 2rem;
+  width: 50%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 24px -5px rgba(0, 0, 0, 0.75);
+
+  .id {
+    display: block;
+    margin-bottom: 2rem;
+    font-size: 5rem;
+  }
+
+  .title {
+    display: block;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+
+    &::first-letter {
+      text-transform: uppercase;
+    }
+  }
+
+  .body {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 2rem;
+    line-height: 3.5rem;
+
+    &::first-letter {
+      text-transform: uppercase;
+    }
+  }
+
+  .button {
+    display: flex;
+    justify-content: end;
+
+    & button {
+      width: 10rem;
+      height: 4rem;
+      border-radius: 10px;
+      font-size: 1.8rem;
+      letter-spacing: 1px;
+    }
+  }
+}

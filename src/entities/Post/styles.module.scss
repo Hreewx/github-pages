@@ -1,0 +1,42 @@
+.postBody {
+  padding: 2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 2rem;
+
+  & span {
+    margin-right: 2rem;
+  }
+
+  & button {
+    display: block;
+  }
+
+  .id {
+    font-size: 2rem;
+  }
+
+  .title {
+    font-size: 2.5rem;
+    text-wrap: nowrap;
+
+    &::first-letter {
+      text-transform: uppercase;
+    }
+  }
+
+  .body {
+    font-size: 1.5rem;
+
+    &::first-letter {
+      text-transform: uppercase;
+    }
+  }
+
+  .button {
+    display: flex;
+    justify-content: end;
+    margin-top: 2rem;
+  }
+}

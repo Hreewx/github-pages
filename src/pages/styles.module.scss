@@ -1,0 +1,11 @@
+.container {
+  height: 100vh;
+  padding: 80px;
+  background-color: #e7d3b0;
+
+  & h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: black;
+  }
+}
